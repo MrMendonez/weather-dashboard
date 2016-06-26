@@ -6,7 +6,7 @@ var logger = require('morgan');
 var app = express();
 
 // set up our port =============================================
-var PORT = process.env.PORT || 3333;
+var PORT = process.env.PORT || 4321;
 
 // middleware ==================================================
 app.use(logger('dev')); // log every request to the console
