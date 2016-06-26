@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="app">
 <head>
 	<title>Weather Dashboard</title>
 	<!-- Bootstrap CSS -->
@@ -9,6 +9,8 @@
 </head>
 <body>
 
+  <ng-include src="'app/layout/shell.html'"></ng-include>
+
 	<!-- jQuery -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 	<!-- Bootstrap JS -->
@@ -17,9 +19,11 @@
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
 	<!-- angular-route -->
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.js"></script>
-	<!-- HIGHCHARTS -->
+	<!-- Highcharts -->
 	<script src="http://code.highcharts.com/highcharts.js"></script>
 	<!-- Custom JS -->
 	<script type="text/javascript" src="app/app.module.js"></script>
+  <script type="text/javascript" src="app/layout/shell.module.js"></script>
+  <script type="text/javascript" src="app/layout/shell.ctrl.js"></script>
 </body>
 </html>
