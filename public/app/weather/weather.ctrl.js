@@ -1,6 +1,6 @@
 (function() {
   angular.module("app.weather")
-    .controller("Weather", function() {
-
+    .controller("Weather", function($scope) {
+          
     });
 })();
