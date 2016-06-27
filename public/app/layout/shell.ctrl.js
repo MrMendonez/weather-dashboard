@@ -3,4 +3,4 @@
     .controller("Shell", function($scope) {
 
     });
-})
+})();
