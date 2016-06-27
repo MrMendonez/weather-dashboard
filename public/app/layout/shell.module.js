@@ -13,6 +13,10 @@
             templateUrl: "app/weather/weather.html",
             controller: "Weather"
           })
+          .when("/forecast/:id", {
+            templateUrl: "app/forecast/forecast.html",
+            controller: "Forecast"
+          })
         .otherwise({
           redirectTo: "/search"
         })
