@@ -27,12 +27,7 @@ var apiKey = "f44bcfdb380db50074574a8d3888ef4c";
       function getCurrentWeather(id) {
         console.log("id is ", id)
         var defer = $q.defer();
-
         var url = "http://api.openweathermap.org/data/2.5/weather?q=" + id + "&appid=" + apiKey;
-
-
-        // http://api.openweathermap.org/data/2.5/weather?q=London&appid=725ea364b7228120fc098da2cba79b0c
-
 
         $http.get(url)
           .success(function(response) {
